@@ -21,7 +21,7 @@ public class Loading extends JFrame implements Runnable{
                 else
                 {
                     setVisible(false);//when we get the max value=100 then we will shut this frame and 
-                    new Dashboard();   //new frame will be open here
+                    new Dashboard(username);   //new frame will be open here
                 }
                 Thread.sleep(30);//using sleep to give the break while running the bar 
                 //to see the bar going from 1 to 100
